@@ -165,7 +165,7 @@ nav ul li a:hover::after {
 /* ヒーローセクション */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://source.unsplash.com/random/1920x1080/?cafe,coffee,elegant') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/hero-background.jpg') no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -183,12 +183,14 @@ nav ul li a:hover::after {
     font-size: 3.5rem;
     margin-bottom: 20px;
     letter-spacing: 3px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .hero-content p {
     font-size: 1.3rem;
     margin-bottom: 40px;
     letter-spacing: 1px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* コンセプトセクション */
@@ -355,7 +357,7 @@ nav ul li a:hover::after {
 
 /* 予約セクション */
 .reservation {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://source.unsplash.com/random/1920x1080/?cafe,coffee,elegant') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/reservation-background.jpg') no-repeat center center/cover;
     text-align: center;
     color: white;
     padding: 100px 0;
@@ -364,6 +366,7 @@ nav ul li a:hover::after {
 .reservation-content h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .reservation-content p {
